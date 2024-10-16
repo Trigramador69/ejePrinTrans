@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .contenedor-flexible{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+    }
+    .uno, .cinco{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    color: white;
+    }
+    .dos, .seis{
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    color: white;
+    }
+    .tres, .siete{
+    background-color: violet;
+    height: 250px;
+    width: 250px;
+    color: white;
+    }
+    .cuatro{
+     background-color: blue;
+    height: 250px;
+    width: 250px;
+    color: white;
+    }
+    .contenedor-flexible2{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .unox{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    color: white;
+    }
+    .dox{
+    background-color: orange;
+    height: 100px;
+    width: 150px;
+    color: white;
+    }
+    .trex{
+    background-color: violet;
+    height: 50px;
+    width: 150px;
+    color: white;
+    }
+    .cuatrox{
+     background-color: blue;
+    height: 150px;
+    width: 150px;
+    color: white;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="contenedor-flexible">
+        <div class="uno">Elemento 1</div>
+        <div class="dos">Elemento 2</div>
+        <div class="tres">Elemento 3</div>
+        <div class="cuatro">Elemento 4</div>
+        <div class="cinco">Elemento 1</div>
+        <div class="seis">Elemento 2</div>
+        <div class="siete">Elemento 3</div>
+    </div>
+
+    <!-- <div class="contenedor-flexible2">
+        <div class="unox">Elemento 1</div>
+        <div class="dox">Elemento 2</div>
+        <div class="trex">Elemento 3</div>
+        <div class="cuatrox">Elemento 4</div>
+    </div> -->
+</body>
+</html>
